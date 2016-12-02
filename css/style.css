@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5, h6, p, a, div, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px; }
+
+nav {
+  height: 100px;
+  background-color: black; }
+  nav p {
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    color: white;
+    font-size: 50px; }
+
+header {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/butterfly.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+.logo img {
+  display: block;
+  padding: 10% 20%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=style.css.map */
