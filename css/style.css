@@ -7,25 +7,122 @@ nav {
   height: 100px;
   background-color: black; }
   nav p {
-    font-family: "Source Sans Pro";
-    font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 500;
     color: white;
     font-size: 50px; }
 
 header {
-  height: 400px;
+  height: 350px;
   width: 100%;
   overflow: hidden;
   position: relative;
   margin: 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/butterfly.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../images/butterfly.jpg");
   background-size: cover;
   background-repeat: none;
   background-position: center; }
 
 .logo img {
   display: block;
-  padding: 10% 20%;
+  padding: 8% 20%;
   margin: 0 auto; }
+
+.firstsection {
+  position: relative; }
+  .firstsection h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 115px;
+    text-transform: uppercase;
+    padding-top: 2%; }
+  .firstsection h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%; }
+  .firstsection .container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto; }
+  .firstsection .flex-item {
+    height: 400px;
+    width: 300px;
+    border: 3px #dbdbdb solid;
+    margin: auto; }
+    .firstsection .flex-item .icon {
+      text-align: center; }
+      .firstsection .flex-item .icon i {
+        padding-top: 25%; }
+    .firstsection .flex-item p {
+      text-align: center;
+      padding-top: 20%;
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 35px; }
+    .firstsection .flex-item div img {
+      height: 45px;
+      padding: 15% 42%; }
+
+.quotebox {
+  margin-top: 7%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/jexkw2hr1su-julia-caesar.jpg") no-repeat center; }
+  .quotebox p {
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10%; }
+
+.secondsection h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 2%; }
+.secondsection h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 4%; }
+.secondsection .container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 4%; }
+  .secondsection .container .flex-item {
+    height: 100px;
+    width: 300px;
+    border: 3px #dbdbdb solid;
+    margin: auto; }
+
+footer {
+  height: 100px;
+  background-color: black; }
 
 /*# sourceMappingURL=style.css.map */
