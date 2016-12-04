@@ -83,16 +83,15 @@ header {
   .firstsection .flex-itemhover {
     display: hidden;
     height: 240px;
-    width: 270px;
-    border: 3px #dbdbdb solid;
-    background-color: white;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
     border-top: none;
     margin: auto; }
     .firstsection .flex-itemhover p {
       text-align: center;
       padding: 15% 20%;
       font-family: "Source Sans Pro", sans-serif;
-      font-weight: 300;
+      font-weight: 500;
       font-size: 20px; }
   .firstsection .container2 {
     display: -webkit-box;
@@ -108,27 +107,22 @@ header {
     margin: 0 auto; }
 
 .quotebox {
-  margin-top: 7%;
+  margin-top: 10%;
   width: 100%;
+  background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url("../images/babysloth 2.jpg") no-repeat left;
   position: relative;
   height: 500px;
   width: 100%;
   overflow: hidden;
   z-index: -200; }
-  .quotebox video {
-    position: absolute;
-    z-index: -100;
-    min-height: 100%;
-    min-width: 100%;
-    margin: 0; }
   .quotebox p {
     color: white;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 900;
-    font-size: 60px;
-    text-align: center;
-    padding: 8%;
-    padding-left: 12%;
+    font-size: 30px;
+    padding: 2% 2%;
+    padding-right: 55%;
+    text-align: left;
     position: absolute; }
 
 .secondsection h2 {
