@@ -55,7 +55,9 @@ header {
     padding: 8% 20%;
     margin: 0 auto;
   }
-
+  .mobilelogo img {
+    display: none;
+  }
 // MIDDLE SEGMENT WITH DROP-DOWNS
   .firstsection {
     position: relative;
@@ -88,7 +90,7 @@ header {
       flex-wrap: nowrap;
       justify-content: center;
       align-items: center;
-      width: 80%;
+      // width: 80%;
       margin: 0 auto;
      }
 
@@ -101,6 +103,8 @@ header {
 
          .icon {
            text-align: center;
+
+// FONT AWESOME ICON
            i {
              padding-top: 25%;
            }
@@ -114,7 +118,7 @@ header {
         }
         div img {
           height: 30px;
-          padding: 12% 45%;
+          padding: 10% 45%;
           -webkit-transition-duration: 1s;
           -moz-transition-duration: 1s;
           transition-duration: 1s;
@@ -154,7 +158,7 @@ header {
        flex-wrap: nowrap;
        justify-content: center;
        align-items: center;
-       width: 80%;
+      //  width: 80%;
        margin: 0 auto;
       }
   }
@@ -187,6 +191,11 @@ header {
     }
   }
 
+.minisloth {
+  display: none;
+}
+
+// SECTION EXPLAINING HOW TO DONATE AS A STUDENT V. AN ADULT
 .secondsection {
 
 
@@ -203,7 +212,7 @@ header {
   h3 {
     font-family: $font;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
     padding-top: 1%;
@@ -226,7 +235,7 @@ header {
 
 
     .flex-item {
-      width: 300px;
+      width: 400px;
       border: 3px #dbdbdb solid;
       margin: auto;
       margin-top: -15;
@@ -236,7 +245,7 @@ header {
 
 
           .supportdescript {
-            font-weight: 200;
+            font-weight: 400;
             font-size: 18px;
             text-align: left;
             line-height: 1.8;
@@ -270,13 +279,14 @@ header {
       }
     }
 
+// BOTTOM PHOTO SECTION, HELPS STUDENT AND ADULT DROPDOWNS NOT GO OFF PAGE
     .photobottom {
       width: 100%;
       background:
         linear-gradient(rgba(white, 0.15), rgba(white, 0.15)),
         url("../images/ferns.jpg") no-repeat center;
       position: relative;
-      height: 500px;
+      height: 425px;
       width: 100%;
       overflow: hidden;
       z-index: -200;
@@ -286,3 +296,95 @@ header {
     height: 100px;
     background-color: black;
   }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header .logo img {
+    padding: 0;
+    padding-top: 10%;
+  }
+
+    .quotebox {
+      background:
+        linear-gradient(rgba(white, 0.15), rgba(white, 0.15)),
+        url("../images/babysloth 2.jpg") no-repeat right;
+
+      p {
+        color: white;
+        font-family: $font;
+        font-weight: 900;
+        font-size: 35px;
+        padding: 1% 1%;
+        text-align: left;
+        position: absolute;
+      }
+    }
+  }
+
+
+
+
+
+
+  @media (max-width:767px) {
+    header {
+      height: 150px;
+
+      .logo img{
+        display: none;
+      }
+      .mobilelogo img {
+        display: block;
+        width: 90%;
+        padding: 5%;
+      }
+    }
+    .firstsection{
+      h1 {
+        font-size: 60px;
+        padding-bottom: 10%;
+      }
+        .container {
+          flex-wrap: wrap;
+          .flex-item {
+          }
+          .flex-itemhover {
+            display: hidden;
+            height: 350px;
+            width: 100%;
+            position: relative;
+            margin: auto;
+            background-color: white;
+      }
+    }
+  }
+
+  .minisloth {
+    display: block;
+    height: 70px;
+    padding: 10% 40%;
+  }
+
+    .secondsection .container{
+      flex-wrap: wrap;
+      width: 80%;
+    }
+
+    .secondsection .container .flex-item {
+      width: 100%;
+    }
+
+    .secondsection .container .flex-item .supportdescript {
+      background:
+        linear-gradient(rgba(white, 1), rgba(white, 1));
+      border-top: none;
+      background: white;
+      position: relative;
+      z-index: 1000;
+      width: 90%;
+      font-weight: 500;
+    }
+
+    .quotebox {
+        display: none;
+      }
+    }
