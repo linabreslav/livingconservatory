@@ -5,6 +5,10 @@ $("#flexhover1").hide();
 $("#flexhover2").hide();
 // hide when page loads
 $("#flexhover3").hide();
+// hide when page loads
+$("#flexhover4").hide();
+// hide when page loads
+$("#flexhover5").hide();
 
 // rotate arrow
 $( ".dropdownicon" ).click(function() {
@@ -33,5 +37,17 @@ $( ".dropdownicon2" ).click(function() {
 // drop-down toggle 3
 $( ".dropdownicon3" ).click(function() {
   $( "#flexhover3" ).toggle( "slow", function() {
+  });
+});
+
+// drop-down toggle 3
+$( ".dropdownicon4" ).click(function() {
+  $( "#flexhover4" ).toggle( "slow", function() {
+  });
+});
+
+// drop-down toggle 3
+$( ".dropdownicon5" ).click(function() {
+  $( "#flexhover5" ).toggle( "slow", function() {
   });
 });

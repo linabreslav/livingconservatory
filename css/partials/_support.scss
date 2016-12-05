@@ -2,6 +2,7 @@
 
 // VARIABLES
 $font: 'Source Sans Pro', sans-serif;
+$linkcolor: #3559a1;
 
 
 // PRE-CODE FIXES
@@ -11,6 +12,17 @@ h1, h2, h3, h4, h5, h6, p, a, div, body {
   border: 0px;
 }
 
+// LINK STYLING
+a {
+  color: $linkcolor;
+  font-weight: 800;
+  text-decoration: none;
+  font-family: $font;
+}
+
+a:hover {
+  color: #ededed;
+}
 
 //NAV BAR SETTING GENERAL HEIGHT AND TESTING OUT FONT BEFORE CHAS SENDS TEMPLATE
 nav {
@@ -32,7 +44,7 @@ header {
   position: relative;
   margin: 0px;
   background:
-    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    linear-gradient(rgba(white, 0.20), rgba(white, 0.20)),
     url("../images/butterfly.jpg");
   background-size: cover;
   background-repeat: none;
@@ -51,7 +63,7 @@ header {
     h1 {
       font-family: $font;
       font-weight: 900;
-      font-size: 115px;
+      font-size: 100px;
       text-transform: uppercase;
       padding-top: 2%;
     }
@@ -101,8 +113,8 @@ header {
           font-size: 35px;
         }
         div img {
-          height: 45px;
-          padding: 12% 42%;
+          height: 30px;
+          padding: 12% 45%;
           -webkit-transition-duration: 1s;
           -moz-transition-duration: 1s;
           transition-duration: 1s;
@@ -167,15 +179,17 @@ header {
       color: white;
       font-family: $font;
       font-weight: 900;
-      font-size: 30px;
+      font-size: 35px;
       padding: 2% 2%;
-      padding-right: 55%;
+      padding-right: 53%;
       text-align: left;
       position: absolute;
     }
   }
 
 .secondsection {
+
+
   h2{
     font-family: $font;
     font-weight: 700;
@@ -189,11 +203,11 @@ header {
   h3 {
     font-family: $font;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     padding-top: 1%;
-    padding-bottom: 4%;
+    padding-bottom: 1%;
   }
 
   .container {
@@ -210,10 +224,31 @@ header {
     margin: 0 auto;
     padding-bottom: 10%;
 
+
     .flex-item {
       width: 300px;
       border: 3px #dbdbdb solid;
       margin: auto;
+      margin-top: -15;
+      display: block;
+      height: 150px;
+      width: 270px;
+
+
+          .supportdescript {
+            font-weight: 200;
+            font-size: 18px;
+            text-align: left;
+            line-height: 1.8;
+            display: hidden;
+            width: 100%;
+            background:
+              linear-gradient(rgba(white, 0.90), rgba(white, 0.90));
+            border-top: none;
+            margin: auto;
+
+        }
+      }
 
       p{
         font-family: $font;
@@ -222,13 +257,30 @@ header {
         text-align: center;
         padding: 4%;
       }
-      div img {
-        height: 30px;
-        padding: 5% 45%;
+        div img {
+          height: 30px;
+          padding: 12% 45%;
+          -webkit-transition-duration: 1s;
+          -moz-transition-duration: 1s;
+          transition-duration: 1s;
+          -webkit-transition-property: -webkit-transform;
+          -moz-transition-property: -moz-transform;
+          transition-property: transform;
+        }
       }
     }
-  }
-}
+
+    .photobottom {
+      width: 100%;
+      background:
+        linear-gradient(rgba(white, 0.15), rgba(white, 0.15)),
+        url("../images/ferns.jpg") no-repeat center;
+      position: relative;
+      height: 500px;
+      width: 100%;
+      overflow: hidden;
+      z-index: -200;
+    }
 
   footer {
     height: 100px;
