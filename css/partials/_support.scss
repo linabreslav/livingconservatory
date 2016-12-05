@@ -54,6 +54,7 @@ header {
     display: block;
     padding: 8% 20%;
     margin: 0 auto;
+    width: 60%;
   }
   .mobilelogo img {
     display: none;
@@ -90,7 +91,7 @@ header {
       flex-wrap: nowrap;
       justify-content: center;
       align-items: center;
-      // width: 80%;
+      width: 80%;
       margin: 0 auto;
      }
 
@@ -301,6 +302,11 @@ header {
   header .logo img {
     padding: 0;
     padding-top: 10%;
+    width: 80%;
+  }
+
+  .firstsection .container {
+    width: 100%;
   }
 
     .quotebox {
@@ -318,7 +324,13 @@ header {
         position: absolute;
       }
     }
+    .secondsection .container  {
+      width: 100%;
+      justify-content: space-around;
+    }
   }
+
+
 
 
 
@@ -338,15 +350,20 @@ header {
         padding: 5%;
       }
     }
+
+    .firstsection .flex-item {
+      margin: 20px;
+    }
+
     .firstsection{
       h1 {
         font-size: 60px;
         padding-bottom: 10%;
+        text-align: center;
       }
         .container {
           flex-wrap: wrap;
-          .flex-item {
-          }
+
           .flex-itemhover {
             display: hidden;
             height: 350px;
@@ -356,6 +373,17 @@ header {
             background-color: white;
       }
     }
+  }
+
+
+
+  .secondsection .container div img {
+    padding: 0 45%;
+  }
+
+  .secondsection .container .flex-item {
+    margin-top: 30px;
+    height: 100px;
   }
 
   .minisloth {

@@ -35,7 +35,8 @@ header {
 .logo img {
   display: block;
   padding: 8% 20%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 60%; }
 
 .mobilelogo img {
   display: none; }
@@ -66,6 +67,7 @@ header {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    width: 80%;
     margin: 0 auto; }
   .firstsection .flex-item {
     display: block;
@@ -217,7 +219,11 @@ footer {
 @media (min-width: 768px) and (max-width: 1024px) {
   header .logo img {
     padding: 0;
-    padding-top: 10%; }
+    padding-top: 10%;
+    width: 80%; }
+
+  .firstsection .container {
+    width: 100%; }
 
   .quotebox {
     background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url("../images/babysloth 2.jpg") no-repeat right; }
@@ -228,7 +234,11 @@ footer {
       font-size: 35px;
       padding: 1% 1%;
       text-align: left;
-      position: absolute; } }
+      position: absolute; }
+
+  .secondsection .container {
+    width: 100%;
+    justify-content: space-around; } }
 @media (max-width: 767px) {
   header {
     height: 150px; }
@@ -239,9 +249,13 @@ footer {
       width: 90%;
       padding: 5%; }
 
+  .firstsection .flex-item {
+    margin: 20px; }
+
   .firstsection h1 {
     font-size: 60px;
-    padding-bottom: 10%; }
+    padding-bottom: 10%;
+    text-align: center; }
   .firstsection .container {
     flex-wrap: wrap; }
     .firstsection .container .flex-itemhover {
@@ -251,6 +265,13 @@ footer {
       position: relative;
       margin: auto;
       background-color: white; }
+
+  .secondsection .container div img {
+    padding: 0 45%; }
+
+  .secondsection .container .flex-item {
+    margin-top: 30px;
+    height: 100px; }
 
   .minisloth {
     display: block;
