@@ -21,7 +21,6 @@ $( ".dropdownicon" ).click(function() {
 });
 
 
-
 // drop-down toggle
 $( ".dropdownicon1" ).click(function() {
   $( "#flexhover1" ).toggle( "slow", function() {

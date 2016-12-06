@@ -118,8 +118,8 @@ header {
           font-size: 35px;
         }
         div img {
-          height: 30px;
-          padding: 10% 45%;
+          height: 50px;
+          padding: 20% 40.5% 0 40.5%;
           -webkit-transition-duration: 1s;
           -moz-transition-duration: 1s;
           transition-duration: 1s;
@@ -137,6 +137,7 @@ header {
          linear-gradient(rgba(white, 0.90), rgba(white, 0.90)),;
        border-top: none;
        margin: auto;
+       margin-top: 5px;
 
 
         p {
@@ -241,7 +242,7 @@ header {
       margin: auto;
       margin-top: -15;
       display: block;
-      height: 150px;
+      height: 140px;
       width: 270px;
 
 
@@ -265,11 +266,11 @@ header {
         font-weight: 900;
         font-size: 35px;
         text-align: center;
-        padding: 4%;
+        padding-top: 10%;
       }
         div img {
-          height: 30px;
-          padding: 12% 45%;
+          height: 50px;
+          padding: 8% 40.5% 0 40.5%;
           -webkit-transition-duration: 1s;
           -moz-transition-duration: 1s;
           transition-duration: 1s;
@@ -305,6 +306,24 @@ header {
     width: 80%;
   }
 
+  .firstsection h1 {
+    text-align: center;
+  }
+
+  .firstsection .flex-item div img {
+    height: 50px;
+    padding: 2% 40%;
+  }
+
+  .firstsection .flex-item {
+    height: 300px;
+  }
+
+  .firstsection .flex-item .icon i {
+    padding-top: 10%;
+    padding-bottom: 0px;
+  }
+
   .firstsection .container {
     width: 100%;
   }
@@ -328,8 +347,20 @@ header {
       width: 100%;
       justify-content: space-around;
     }
+
+  .secondsection .container div img {
+    height: 50px;
+    padding: 2% 40% 0 40%;
   }
 
+  .secondsection .container p {
+    padding-top: 10%;
+  }
+
+  .secondsection .container .flex-item {
+    height: 135px;
+  }
+}
 
 
 
@@ -366,19 +397,41 @@ header {
 
           .flex-itemhover {
             display: hidden;
-            height: 350px;
+            height: 200px;
             width: 100%;
             position: relative;
             margin: auto;
             background-color: white;
+            margin-top: 5px;
       }
     }
+  }
+  .firstsection .flex-item {
+    height: 250px;
+  }
+
+  .firstsection .flex-item .icon i {
+    padding-top: 6%;
+  }
+
+  .firstsection .flex-item p {
+    padding-top: 0;
+  }
+
+  .firstsection .flex-item div img {
+    height: 50px;
+    padding: 2% 40.5%;
   }
 
 
 
   .secondsection .container div img {
-    padding: 0 45%;
+    padding: 0 40.5%;
+  }
+
+  .secondsection .container p {
+    padding-top: 2%;
+    padding-bottom: 0;
   }
 
   .secondsection .container .flex-item {
