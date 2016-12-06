@@ -263,7 +263,10 @@ footer {
     padding-top: 10%; }
 
   .secondsection .container .flex-item {
-    height: 135px; } }
+    height: 135px; }
+
+  .secondsection .container .flex-item .supportdescript {
+    margin-top: 5%; } }
 @media (max-width: 767px) {
   header {
     height: 150px; }
